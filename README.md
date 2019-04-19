@@ -8,3 +8,11 @@ Like most malware in this category, Mirai is built for two core purposes:
 1)Locate and compromise IoT devices to further grow the botnet.
 
 2)Launch DDoS attacks based on instructions received from a remote C&C.
+
+The bot will carry out the following actions:
+
+It attempts to kill processes that would prevent it from running and persisting on the device. The telnet server, and often web server, is killed at this stage.
+
+It connects to a command and control server, waiting for commands to attack other machines.
+
+It continuously scans for other devices that may be vulnerable, attempting to login with the list of known credentials.
