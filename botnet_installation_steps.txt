@@ -1,1 +1,6 @@
+STEPS TO INSTALL MIRAI BOTNET
+
+Install the following on a Kali linux.
+
+
 
